@@ -1,0 +1,28 @@
+.lista {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 2em;
+  align-items: center;
+}
+
+.lista__item {
+  padding: 3em 3em;
+}
+
+.lista__titulo {
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--vermelho);
+}
+
+.lista__subtitulo {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--preto);
+}
+
+.lista__texto {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cinza);
+}
