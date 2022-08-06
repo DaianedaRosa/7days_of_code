@@ -32,3 +32,49 @@
 .vagas__descricao {
   display: flex;
 }
+
+.Container__profissoes {
+  margin: 2rem 16rem;
+}
+
+.Container__profissoes-2 {
+  margin-top: 8rem;
+}
+
+.Profissoes__titulo {
+  text-align: initial;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--preto);
+  width: 768px;
+  height: 30px;
+}
+
+.Profissoes__descricao {
+  margin-top: 1em;
+  text-align: initial;
+  box-sizing: border-box;
+  width: 768px;
+  height: 136px;
+  padding: 24px 24px 28px;
+  gap: 24px;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+}
+
+.Profissoes__descricao-titulo {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--preto);
+  padding: 1em;
+}
+
+.profissões__descricao-conteudo {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--cinza);
+}
+
+span {
+  padding: 0.5em;
+}
