@@ -1,0 +1,34 @@
+.content {
+  margin: 4em;
+  text-align: center;
+  background-color: var(--degrade-rosa);
+  border-radius: 16px;
+  padding: 3em;
+}
+
+.content__descricao {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--vermelho);
+}
+
+.content__titulo {
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--preto);
+  padding: 1em;
+  line-height: 44px;
+}
+
+.content__avatar-nome {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--preto);
+  padding: 1em;
+}
+
+.content__profissao {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--cinza);
+}

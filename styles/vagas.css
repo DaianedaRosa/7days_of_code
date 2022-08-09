@@ -16,32 +16,29 @@
 .vagas__titulo {
   font-weight: 600;
   font-size: 36px;
-  padding: 0.6em;
+  padding-top: 1em;
 }
 
 .vagas__texto {
+  padding: 1em;
   font-weight: 400;
   font-size: 20px;
   color: var(--cinza);
-}
-
-.vagas__img {
-  padding: 2em 2em;
 }
 
 .vagas__descricao {
   display: flex;
 }
 
-.Container__profissoes {
+.container__profissoes {
   margin: 2rem 16rem;
 }
 
-.Container__profissoes-2 {
+.container__profissoes-2 {
   margin-top: 8rem;
 }
 
-.Profissoes__titulo {
+.profissoes__titulo {
   text-align: initial;
   font-weight: 500;
   font-size: 20px;
@@ -50,7 +47,7 @@
   height: 30px;
 }
 
-.Profissoes__descricao {
+.profissoes__descricao {
   margin-top: 1em;
   text-align: initial;
   box-sizing: border-box;
@@ -62,14 +59,14 @@
   border-radius: 16px;
 }
 
-.Profissoes__descricao-titulo {
+.profissoes__descricao-titulo {
   font-weight: 500;
   font-size: 18px;
   color: var(--preto);
   padding: 1em;
 }
 
-.profissões__descricao-conteudo {
+.profissoes__descricao-conteudo {
   font-weight: 500;
   font-size: 16px;
   color: var(--cinza);
@@ -77,4 +74,47 @@
 
 span {
   padding: 0.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  .vagas {
+    margin: 6em 3em;
+  }
+
+  .vagas__anuncio {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 40%;
+  }
+
+  .vagas__titulo {
+    font-size: 32px;
+  }
+
+  .vagas__texto {
+    font-size: 24px;
+  }
+
+  .vagas__img {
+    width: 90%;
+    height: 50%;
+  }
+
+  .container__profissoes {
+    margin: 3rem 2rem;
+  }
+
+  .profissoes__titulo {
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .profissoes__descricao-titulo {
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .profissoes__descricao-conteudo {
+    font-size: 20px;
+  }
 }

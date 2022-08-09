@@ -30,3 +30,15 @@ button {
   background-color: var(--vermelho);
   color: var(--branco);
 }
+
+@media screen and (max-width: 1024px) {
+  .navbar__links {
+    display: none;
+  }
+
+  #signUp {
+    padding: 0.2rem 0.6rem;
+    height: 32em;
+    border-radius: 0.2rem;
+  }
+}

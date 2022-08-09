@@ -2,14 +2,19 @@
 @import url(styles/cabecalho.css);
 @import url(styles/lista.css);
 @import url(styles/vagas.css);
+@import url(styles/content.css);
+@import url(styles/rodape.css);
 
 :root {
   --branco: #ffffff;
+  --branco-rodape: #f9fafb;
   --cinza: #667085;
+  --cinza-claro: #98a2b3;
   --preto: #101828;
   --vermelho: #8e2424;
   --degrade: rgba(142, 36, 36, 0.05);
   --fonte: 'Inter';
+  --degrade-rosa: rgba(196, 25, 25, 0.03);
 }
 
 body {
@@ -17,4 +22,8 @@ body {
   font-family: var(--fonte);
   font-weight: 500;
   font-size: 16px;
+}
+
+main {
+  margin: 0 3em;
 }

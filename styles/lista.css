@@ -1,7 +1,6 @@
 .lista {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 0 2em;
   align-items: center;
 }
 
@@ -25,4 +24,29 @@
   font-weight: 400;
   font-size: 16px;
   color: var(--cinza);
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .lista__titulo {
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .lista__subtitulo {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 0.5em;
+  }
+
+  .lista__texto {
+    font-weight: 400;
+    font-size: 20px;
+  }
 }

@@ -1,5 +1,5 @@
 .cabecalho {
-  margin: 5em 3em;
+  margin: 5em;
   text-align: center;
 }
 
@@ -19,4 +19,21 @@
   font-weight: 400;
   font-size: 20px;
   color: var(--cinza);
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cabecalho__titulo {
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--preto);
+    padding: 0.5em;
+  }
+
+  .cabecalho__descricao {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cinza);
+    line-height: 30px;
+  }
 }
