@@ -7,7 +7,7 @@
   background-color: var(--degrade);
   color: var(--vermelho);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 16px;
   padding: 0.5em 0.2em;
   margin: 0 44%;
@@ -30,8 +30,12 @@
   display: flex;
 }
 
+.vagas__img {
+  width: 100%;
+}
+
 .container__profissoes {
-  margin: 2rem 16rem;
+  margin: 2rem 8rem;
 }
 
 .container__profissoes-2 {
@@ -107,6 +111,10 @@ span {
   .profissoes__titulo {
     font-weight: 600;
     font-size: 25px;
+  }
+
+  .profissoes__descricao {
+    border: none;
   }
 
   .profissoes__descricao-titulo {

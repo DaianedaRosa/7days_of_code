@@ -2,22 +2,27 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
+  width: 100%;
 }
 
 .lista__item {
-  padding: 3em 3em;
+  padding: 3rem 2rem;
+  text-align: center;
 }
 
 .lista__titulo {
   font-weight: 600;
   font-size: 60px;
   color: var(--vermelho);
+  line-height: 72px;
 }
 
 .lista__subtitulo {
+  text-align: center;
   font-weight: 500;
   font-size: 18px;
   color: var(--preto);
+  padding: 0.5rem;
 }
 
 .lista__texto {

@@ -1,8 +1,9 @@
 .rodape {
   text-align: center;
-  margin: 3em 0;
+  margin-top: 3em 0;
   padding: 3em;
   background: var(--branco-rodape);
+  width: 100%;
 }
 
 .rodape__titulo {
@@ -44,4 +45,24 @@
   font-size: 16px;
   color: var(--cinza-claro);
   padding: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .rodape__titulo {
+    font-size: 32px;
+  }
+
+  .rodape__texto {
+    font-size: 24px;
+  }
+
+  .rodape__email {
+    font-size: 18px;
+  }
+  #signUp {
+    font-size: 16px;
+  }
+  .rodape__direitos {
+    font-size: 18px;
+  }
 }
