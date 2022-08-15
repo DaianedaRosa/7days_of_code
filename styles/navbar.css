@@ -1,18 +1,12 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 2em 2em;
+  padding: 1em 0;
 }
 
 .navbar__links {
-  margin-right: 12rem;
-}
-
-a {
-  text-decoration: none;
-  color: var(--cinza);
-  padding: 1em;
+  display: none;
 }
 
 button {
@@ -20,10 +14,8 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 0.5rem;
-  font-weight: 500;
   background: none;
   color: var(--cinza);
-  font-size: 0.9rem;
 }
 
 #signUp {
@@ -31,17 +23,49 @@ button {
   color: var(--branco);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+  }
+
   .navbar__links {
     display: none;
   }
 
-  #signUp {
-    padding: 0.2rem 0.6rem;
-    height: 32em;
+  button {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .navbar__ #signUp {
+    padding: 0.5rem 0.5rem;
     border-radius: 0.2rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1728px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 2em;
+  }
+
+  .navbar__links {
+    display: block;
+    margin-right: 12rem;
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 24px;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--cinza);
+    padding: 1em;
+  }
 }
