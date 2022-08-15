@@ -19,8 +19,15 @@ button {
 }
 
 #signUp {
+  font-size: 18px;
   background-color: var(--vermelho);
   color: var(--branco);
+}
+
+#signUp:hover {
+  font-size: 20px;
+  background-color: rgb(167, 34, 34);
+  transition-delay: 0.3s;
 }
 
 @media screen and (min-width: 1024px) {
@@ -28,6 +35,31 @@ button {
     display: flex;
     justify-content: space-around;
     padding: 2em 0;
+  }
+
+  .navbar__entrar {
+    position: relative;
+  }
+
+  .navbar__entrar:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--preto);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .navbar__entrar:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
   }
 
   .navbar__links {
@@ -39,7 +71,7 @@ button {
     font-weight: 500;
   }
 
-  .navbar__ #signUp {
+  #signUp {
     padding: 0.5rem 0.5rem;
     border-radius: 0.2rem;
   }
@@ -53,6 +85,31 @@ button {
     padding: 2em 2em;
   }
 
+  .navbar__entrar {
+    position: relative;
+  }
+
+  .navbar__entrar:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--preto);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .navbar__entrar:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
   .navbar__links {
     display: block;
     margin-right: 12rem;
@@ -64,8 +121,30 @@ button {
   }
 
   a {
+    position: relative;
     text-decoration: none;
     color: var(--cinza);
     padding: 1em;
+  }
+
+  a:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--preto);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
   }
 }

@@ -1,6 +1,6 @@
 .vagas {
   text-align: center;
-  margin: 0 1rem;
+  margin: 2rem 1rem;
 }
 
 .vagas__anuncio {
@@ -71,7 +71,7 @@ span {
 
 @media screen and (min-width: 1024px) {
   .vagas {
-    margin: 0 3em;
+    margin: 6rem 3rem;
   }
 
   .vagas__anuncio {
@@ -91,6 +91,12 @@ span {
   .vagas__img {
     width: 90%;
     height: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .vagas__img:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
   }
 
   .container__profissoes {
@@ -125,6 +131,7 @@ span {
 @media screen and (min-width: 1728px) {
   .vagas {
     text-align: center;
+    margin: 0 3rem;
   }
 
   .vagas__anuncio {
