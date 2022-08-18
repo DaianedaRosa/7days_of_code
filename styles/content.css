@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 1600px) {
   .content {
     margin: 3rem;
     text-align: center;
