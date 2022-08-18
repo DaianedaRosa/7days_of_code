@@ -14,19 +14,22 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <img src="img/_Button base.svg" alt="Logo da OptimusTech" class="navbar__img">
-    <div class="navbar__links">
-      <a href="#">Home</a>
-      <a href="#">Produtos</a>
-      <a href="#">Recursos</a>
-      <a href="#">Sobre nós</a>
-    </div>
-    <div class="navbar__button">
-      <button class="navbar__entrar">Entrar</button>
-      <button id="signUp">Cadastrar</button>
-    </div>
-  </nav>
+  <header id="header">
+    <img id="logo" src="img/_Button base.svg" alt="Logo da OptimusTech">
+    <nav id="nav">
+      <button id="btn-mobile"><img src="img/Menu.svg" alt=""></button>
+      <ul id="menu">
+        <div id="itens">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li><a href="#">Recursos</a></li>
+          <li><a href="#">Sobre nós</a></li>
+        </div>
+        <li><button class="login">Entrar</button></li>
+        <li><button class="login">Cadastrar</button></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
 
@@ -143,10 +146,11 @@
     <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
     <p class="rodape__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
     <input type="email" placeholder="Seu e-mail" class="rodape__email">
-    <button id="signUp">Cadastrar</button>
+    <button class="login">Cadastrar</button>
     <p class="rodape__direitos">© 2022 OptimusTech. Todos os direitos reservados.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 
 </html>

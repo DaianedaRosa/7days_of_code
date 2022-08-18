@@ -32,7 +32,7 @@
   margin: 1em 1em;
 }
 
-#signUp {
+.login {
   font-weight: 300;
 }
 
@@ -55,7 +55,7 @@
   .rodape__email {
     font-size: 18px;
   }
-  #signUp {
+  .login {
     font-size: 16px;
   }
   .rodape__direitos {
@@ -94,7 +94,7 @@
     margin: 1em 1em;
   }
 
-  #signUp {
+  .login {
     padding: 0.6em 2em;
     height: 48px;
   }
