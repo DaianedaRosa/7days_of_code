@@ -1,5 +1,5 @@
 .cabecalho {
-  margin: 3rem;
+  margin: 8rem 3rem 4rem 3rem;
   text-align: center;
 }
 
@@ -21,9 +21,39 @@
   line-height: 20px;
 }
 
-@media screen and (min-width: 1024px) {
+.lista {
+  text-align: center;
+  align-items: center;
+  margin: 3rem 2rem;
+}
+
+.lista__item {
+  padding: 2rem 0;
+}
+
+.lista__titulo {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--vermelho);
+}
+
+.lista__subtitulo {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--preto);
+  padding: 0.5rem;
+}
+
+.lista__texto {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cinza);
+  line-height: 24px;
+}
+
+@media screen and (min-width: 900px) {
   .cabecalho {
-    margin: 5rem;
+    margin: 10rem 5rem 0 5rem;
     text-align: center;
   }
 
@@ -43,11 +73,38 @@
     color: var(--cinza);
     line-height: 30px;
   }
+
+  .lista {
+    margin: 6rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .lista__item {
+    padding: 2rem 2rem;
+  }
+
+  .lista__titulo {
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .lista__subtitulo {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 0.5em;
+  }
+
+  .lista__texto {
+    font-weight: 400;
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1600px) {
   .cabecalho {
-    margin: 5rem;
+    margin: 12rem 5rem 0 5rem;
   }
 
   .cabecalho__texto {
@@ -69,5 +126,39 @@
     color: var(--cinza);
     line-height: 30px;
     margin: 0 16rem;
+  }
+
+  .lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: initial;
+    align-items: center;
+    margin: 0;
+    margin-top: 8rem;
+  }
+
+  .lista__item {
+    padding: 0 3rem;
+  }
+
+  .lista__titulo {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--vermelho);
+  }
+
+  .lista__subtitulo {
+    text-align: initial;
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--preto);
+    padding: 0.8rem 0;
+  }
+
+  .lista__texto {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cinza);
+    line-height: 32px;
   }
 }

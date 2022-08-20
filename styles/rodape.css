@@ -33,6 +33,7 @@
 }
 
 .login-cadastro {
+  cursor: pointer;
   font-weight: 300;
   padding: 0.8em 1em;
   border: none;
