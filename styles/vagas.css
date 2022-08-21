@@ -130,7 +130,7 @@ span {
 @media screen and (min-width: 1600px) {
   .vagas {
     text-align: center;
-    margin: 0 3rem;
+    margin: 10rem 3rem;
   }
 
   .vagas__anuncio {

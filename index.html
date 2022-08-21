@@ -20,10 +20,9 @@
       <button id="btn-mobile"><img src="img/Menu.svg" alt=""></button>
       <ul id="menu">
         <div id="itens">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Vagas</a></li>
-          <li><a href="#">Sobre nós</a></li>
-          <li><a href="#">Cadastre-se</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+          <li><a href="#vagas">Vagas</a></li>
+          <li><a href="#cadastro">Cadastre-se</a></li>
         </div>
         <li><button class="login">Entrar</button></li>
       </ul>
@@ -32,7 +31,7 @@
 
   <main>
 
-    <section class="cabecalho">
+    <section id="sobre" class="cabecalho">
       <p class="cabecalho__texto">Sobre nós</p>
       <h1 class="cabecalho__titulo">Por que somos diferentes?</h1>
       <p class="cabecalho__descricao cabecalho__descricao-tablet">
@@ -70,11 +69,20 @@
           </li>
         </ul>
       </div>
+
+      <div class="content">
+        <p class="content__descricao">Veja o que nossos colaboradores falam sobre nós</p>
+        <h2 class="content__titulo">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos
+          dar todo tipo de auxílio possível.</h2>
+        <img src="img/Avatar.png" alt="Avatar">
+        <p class="content__avatar-nome">Júlia Castro</p>
+        <p class="content__profissao">Desenvolvedora Web</p>
+      </div>
     </section>
 
 
 
-    <section class="vagas">
+    <section id="vagas" class="vagas">
       <p class="vagas__anuncio">Vagas abertas!</p>
       <h2 class="vagas__titulo">Estamos procurando por talentos</h2>
       <p class="vagas__texto">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
@@ -133,17 +141,10 @@
       </div>
     </section>
 
-    <section class="content">
-      <p class="content__descricao">Veja o que nossos colaboradores falam sobre nós</p>
-      <h2 class="content__titulo">OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos
-        dar todo tipo de auxílio possível.</h2>
-      <img src="img/Avatar.png" alt="Avatar">
-      <p class="content__avatar-nome">Júlia Castro</p>
-      <p class="content__profissao">Desenvolvedora Web</p>
-    </section>
+
   </main>
 
-  <footer class="rodape">
+  <footer id="cadastro" class="rodape">
     <h2 class="rodape__titulo">Acompanhe as nossas oportunidades</h2>
     <p class="rodape__texto">Seja o primeiro a saber quando novas vagas serão abertas!</p>
     <input type="email" placeholder="Seu e-mail" class="rodape__email">

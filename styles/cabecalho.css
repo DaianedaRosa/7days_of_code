@@ -51,6 +51,42 @@
   line-height: 24px;
 }
 
+.content {
+  margin: 0 1rem;
+  text-align: center;
+  background-color: var(--degrade-rosa);
+  border-radius: 16px;
+  padding: 2rem 1rem;
+}
+
+.content__descricao {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--vermelho);
+}
+
+.content__titulo {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--preto);
+  padding: 1em;
+  line-height: 30px;
+}
+
+.content__avatar-nome {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--preto);
+  padding: 1em;
+}
+
+.content__profissao {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cinza);
+}
+
 @media screen and (min-width: 900px) {
   .cabecalho {
     margin: 10rem 5rem 0 5rem;
@@ -99,6 +135,21 @@
   .lista__texto {
     font-weight: 400;
     font-size: 20px;
+  }
+  .content__descricao {
+    font-size: 16px;
+  }
+
+  .content__titulo {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .content__avatar-nome {
+    font-size: 20px;
+  }
+  .content__profissao {
+    font-size: 18px;
   }
 }
 
@@ -160,5 +211,39 @@
     font-size: 24px;
     color: var(--cinza);
     line-height: 32px;
+  }
+
+  .content {
+    text-align: center;
+    background-color: var(--degrade-rosa);
+    border-radius: 16px;
+    padding: 3rem;
+  }
+
+  .content__descricao {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--vermelho);
+  }
+
+  .content__titulo {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--preto);
+    padding: 1em;
+    line-height: 44px;
+  }
+
+  .content__avatar-nome {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--preto);
+    padding: 1em;
+  }
+
+  .content__profissao {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--cinza);
   }
 }
