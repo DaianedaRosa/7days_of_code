@@ -16,14 +16,21 @@
 
 # Guia de estilos
 
-Toda a estilização que foi usada está disponível no projeto dentro do figma.
+Toda a estilização que foi usada está disponível no projeto dentro do figma:
 
 [Link do projeto no figma](https://lnkd.in/dta7kyrM)
 
-
 ---
 
-## Layout 🚧 <a id="projetos"></a>
+ Para dar uma olhada no site: 
+ <br>
+ 
+ [Link do projeto](7days-of-code-omega.vercel.app)<a id="projetos"></a>
+ 
+ ---
+ <br>
+
+## Layout 🚧 
 
 #### Desktop Screenshot
 
