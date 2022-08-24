@@ -74,10 +74,9 @@ Copyright © 2021.<br/>
 
 ### 👤 Autor 
 
-**Daiane da Rosa**
-
-- [![Linkedin Badge](https://img.shields.io/badge/DaianedaRosa-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white&link=https:https://www.linkedin.com/in/daiane-da-rosa-1036b2224/)](https://www.linkedin.com/in/daiane-da-rosa-1036b2224/)
-- [![Github Badge](https://img.shields.io/badge/DaianedaRosa-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white&link=https://github.com/DaianedaRosa)](https://github.com/DaianedaRosa)
+ [![Linkedin Badge](https://img.shields.io/badge/DaianedaRosa-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white&link=https:https://www.linkedin.com/in/daiane-da-rosa-1036b2224/)](https://www.linkedin.com/in/daiane-da-rosa-1036b2224/)
+ <br>
+ [![Github Badge](https://img.shields.io/badge/DaianedaRosa-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white&link=https://github.com/DaianedaRosa)](https://github.com/DaianedaRosa)
 
 
 ---
